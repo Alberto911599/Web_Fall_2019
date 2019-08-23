@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Title</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<h1>Registry Form</h1>
+	<ul>
+	  <li>Home</li>
+	  <li>About this site</li>
+	  <li>Registry</li>
+	  <li>Contact</li>
+	  <li>Copyright</li>
+	</ul>
+
+	<form>
+		<fieldset>
+			<legend>New account registry:</legend>
+			Your information is safe with us<br>
+			<br>Complete Name<br>
+			<input type="text" name="name"><br>
+			<br>Email:<br>
+			<input type="email" name="email"><br>
+			<br>Password<br>
+			<input type="password" name="password"><br>
+			<br>Password Confirmation<br>
+			<input type="password" name="password_confirm"><br>
+			<br>Country<br>
+			<select id="countrySelect" name="countrySelect">
+			  <option  disabled selected>Select a country...</option>		
+			  <option value="Mexico">Mexico</option>
+			  <option value="United States">United States</option>
+			  <option value="Canada">Canada</option>
+			  <option value="Colombia">Colombia</option>
+			</select>
+			<br><br><input type="radio" name="gender" value="Masculine"> Masculine<br>
+			<input type="radio" name="gender" value="Femenine"> Femenine<br>
+			<br><input type="submit" value="Submit">
+			<input type="button" value="Cancel">
+	  	</fieldset>
+	</form>
+</body>
+</html>	
