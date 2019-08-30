@@ -1,0 +1,52 @@
+.resume{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	margin-right: 50px;
+	margin-left: 50px;
+}
+.ProfileImage{
+	margin-right: 50px;
+}
+.init{
+	text-align: center;
+}
+.address{
+	font-size: 75%;
+}
+.phone-number{
+	font-size: 75%;
+}
+.left {
+  float: left;
+  width: 75%;
+}
+.right {
+  text-align: right;
+  float: right;
+  width: 25%;
+}
+.left-bottom {
+  float: left;
+  width: 50%;
+}
+.right-bottom {
+  text-align: left;
+  float: right;
+  width: 50%;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.ProfileImage {
+	width: 80px;
+	height: 100px;
+	border-radius: 50%;
+	position: absolute;
+	top: 20px;
+	right: 0px;
+}
+.technologies{
+	list-style-type:circle;
+}
