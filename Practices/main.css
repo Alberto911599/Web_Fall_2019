@@ -1,0 +1,83 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	color: #4F545F;
+	font-size: 13px;
+	font-family: Verdana, sans-serif;
+}
+h1{
+	padding: 20px;
+	margin: 0px;
+	color: white;
+	background-color: #55B3C5;
+}
+fieldset{
+	border: 2px dashed #DDD;
+	margin: 20px;
+	padding: 20px;
+}
+legend{
+	font-size: 1.3em;
+	font-weight: 900; /*1 -999*/
+}
+fieldset > div{
+	border: 1px solid #6278B0;
+	color: #42579C;
+	background-image: url('info.png');
+	background-repeat: no-repeat;
+	background-position: center left;
+	background-color: #CCE9FF;
+	background-size: 20px;
+	padding: 10px;
+	background-origin: content-box;
+	/*background: url('') no-repeat center left #code;*/
+}
+.slogan{
+	margin-left: 30px;
+}
+.formElement, select{
+	padding: 5px 10px;
+	width: 250px;
+	box-sizing: border-box;
+}
+
+#submitButton{
+	background-color: #56C56F;
+	margin-right: 20px;
+}
+
+#cancelButton{
+	background-color: #D9534F;
+}
+
+.formButton{
+	text-align: center;
+	padding: 10px 20px;
+	font-size: 16px;
+	border: 0;
+	border-radius: 5px;
+	color: white;
+}
+
+.formButton:hover{
+	cursor: pointer;
+}
+
+#navMenu{
+	list-style: none;
+	background-color: #CCC;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+#navMenu > li{
+	float: left;
+	padding: 20px;
+}
+
+#navMenu > li:hover{
+	color : white;
+	cursor : pointer;
+	background-color: #999;
+}

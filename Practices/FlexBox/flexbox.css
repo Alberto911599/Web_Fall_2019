@@ -1,0 +1,34 @@
+div{
+	border: 1px solid black;
+	padding: 5px;
+}
+
+.mainContainer{
+	display: flex;
+}
+
+.left{
+	width: 30%;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.itemLeft1{
+	align-self: flex-start;
+}
+
+.itemLeft3{
+	align-self: flex-end;
+}
+
+.right{
+	width: 70%;
+	display: flex;
+	flex-direction: column;
+}
+
+.itemRight{
+	text-align: center;
+}
